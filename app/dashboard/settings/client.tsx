@@ -23,9 +23,6 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
 
-// Purpose: Client UI for /dashboard/settings.
-// Use this file for interactive form and browser-only settings UI logic.
-
 type ClientProps = {
   user: {
     firstName: string;
@@ -58,9 +55,9 @@ export default function Client({ user, status, message }: ClientProps) {
   return (
     <>
       <div className="mb-8">
-        <h1 className="text-2xl font-semibold tracking-tight">Settings</h1>
+        <h1 className="text-2xl font-semibold tracking-tight">ContractFlow Settings</h1>
         <p className="mt-1 text-sm text-muted-foreground">
-          Manage your account profile, email, and security.
+          Manage your account, team, and organization preferences.
         </p>
       </div>
 
